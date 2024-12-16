@@ -8,11 +8,9 @@ spring:
     oauth2:
       client:
         registration:
-          google:
+          google: # CommonOAuth2Provider Enum 필요한 엔드포인트들이 제공되어 있음.
             client-id: ${GOOGLE_CLIENT_ID}
             client-secret: ${GOOGLE_CLIENT_SECRET}
-            scope: profile, email
-            redirect-uri: "http://localhost:8080/login/oauth2/code/google"
 
 server:
   port: 8080
