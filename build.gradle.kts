@@ -27,6 +27,7 @@ dependencies {
     implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.security:spring-security-test")
+    testImplementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
